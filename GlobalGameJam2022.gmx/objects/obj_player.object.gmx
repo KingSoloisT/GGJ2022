@@ -28,6 +28,31 @@
             <string>spdx = 50;
 spdy= 50;
 escape = false;
+text = ' ';
+//Look at me im detecting stuff!
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>text = ' ';
 </string>
           </argument>
         </arguments>
@@ -74,13 +99,14 @@ if keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord('D'))
 }
 
 x=clamp(x,0,room_width-sprite_width);
-y=clamp(y,200,room_height-sprite_height);
+y=clamp(y,150,room_height-sprite_height-50);
 
 //interactions
 if place_meeting(x,y,obj_pickup)
 {
     escape = true;
     instance_destroy(obj_pickup);
+    text = 'Look at me im detecting stuff!'
 }
 
 if place_meeting(x,y,obj_enemy)
@@ -93,9 +119,40 @@ if place_meeting(x,y,obj_gate) &amp;&amp; escape = true
     room_goto_next();
 }
 
+if !text = ' '
+{
+    if alarm[0] &lt;= -1 {alarm[0] = 30*5}
+}
 
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+draw_set_font(fnt_test);
+draw_set_halign(fa_center);
+//test text
+draw_text(400,420,text);
 </string>
           </argument>
         </arguments>

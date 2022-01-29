@@ -14,6 +14,10 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_test</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
@@ -24,6 +28,15 @@
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
     <room>rooms\rm_level2</room>
+    <room>rooms\rm_level3</room>
+    <room>rooms\rm_level4</room>
+    <room>rooms\rm_level5</room>
+    <room>rooms\rm_level6</room>
+    <room>rooms\rm_level7</room>
+    <room>rooms\rm_level8</room>
+    <room>rooms\rm_level9</room>
+    <room>rooms\rm_level10</room>
+    <room>rooms\rm_story</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
