@@ -228,9 +228,44 @@ draw_text(400,420,text);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_triangle_colour(x-0,y-0,x+0,y+50, x+50, y+25, c_white, c_white, c_white, false);
-draw_triangle_colour(x+5,y+5,x+5,y+45, x+50, y+25, c_black, c_black, c_black, false);
+            <string>//background color white.
+draw_rectangle_colour   (x+8,    y-3,   x +50,   y+52,                   c_black, c_black, c_black, c_black, false);
+draw_rectangle_colour   (x+8,    y-3,   x +50,   y+52,                   c_white, c_white, c_white, c_white, true);
 
+//hat
+draw_line_width_colour  (x+27,      y+0,    x+38,   y+2,        1,                  c_white, c_white);
+draw_line_width_colour  (x+31,      y-1,    x+35,   y+0,        5,                  c_white, c_white);
+
+//head
+draw_circle_colour      (x+32,      y+3,    3,                                      c_white, c_white, false);
+
+//upper body
+draw_line_width_colour  (x+32,      y+5,    x+20,   y+25,       10,                 c_white, c_white);
+draw_rectangle_colour   (x+17.5,    y+20,   x+25,   y+35,                           c_white, c_white, c_white, c_white, false);
+
+//lower body
+draw_triangle_colour    (x+10,      y+40,   x+35,   y+40,   x+27,   y+25,           c_white, c_white, c_white, false);
+
+//left arm
+draw_line_width_colour  (x+27,      y+26,   x+13,   y+9,        4,                  c_white, c_white);
+draw_line_width_colour  (x+13,      y+9,    x+28,   y+5,        4,                  c_white, c_white);
+
+//right arm
+draw_line_width_colour  (x+30,      y+5,    x+35,   y+23,       4,                  c_white, c_white);
+draw_line_width_colour  (x+34,      y+23,   x+43,   y+21,       4,                  c_white, c_white);
+draw_circle_colour      (x+45,      y+20,                       2,                  c_white, c_white, false);
+
+//left leg
+draw_line_width_colour  (x+20,      y+38,   x+12,   y+47,       5,                  c_white, c_white);
+
+//right leg
+draw_line_width_colour  (x+26,      y+38,   x+27,   y+47,       5,                  c_white, c_white);
+
+//right shoe
+draw_triangle_colour    (x+23,      y+44,   x+26,   y+50,   x+33,   y+50,           c_white, c_white, c_white, false);
+
+//left shoe
+draw_triangle_colour    (x+11,      y+47,   x+10,   y+50,   x+17,   y+51,           c_white, c_white, c_white, false);
 </string>
           </argument>
         </arguments>
