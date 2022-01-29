@@ -54,7 +54,7 @@ Art Direction/ Programmer: Richard Semenuik';
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>room_goto(rm_start);
 </string>
           </argument>
         </arguments>

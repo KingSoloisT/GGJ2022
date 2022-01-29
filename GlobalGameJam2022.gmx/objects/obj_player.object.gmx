@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spdx = 50;
+            <string>scr_narrative();
+
+spdx = 50;
 spdy= 50;
 escape = false;
 text = ' ';
@@ -102,12 +104,6 @@ x=clamp(x,0,room_width-sprite_width);
 y=clamp(y,150,room_height-sprite_height-50);
 
 //interactions
-if place_meeting(x,y,obj_pickup)
-{
-    escape = true;
-    instance_destroy(obj_pickup);
-    text = 'Look at me im detecting stuff!'
-}
 
 if place_meeting(x,y,obj_enemy)
 {
@@ -122,6 +118,63 @@ if place_meeting(x,y,obj_gate) &amp;&amp; escape = true
 if !text = ' '
 {
     if alarm[0] &lt;= -1 {alarm[0] = 30*5}
+}
+
+if place_meeting(x,y,obj_pickup)
+{
+    escape = true;
+    instance_destroy(obj_pickup);
+    
+    if room = rm_level1
+    {
+    text = photonar1;
+    }
+    
+    if room = rm_level2
+    {
+    text = photonar2;
+    }
+    
+    if room = rm_level3
+    {
+    text = photonar3;
+    }
+    
+    if room = rm_level4
+    {
+    text = photonar4;
+    }
+    
+    if room = rm_level5
+    {
+    text = photonar5;
+    }
+    
+    if room = rm_level6
+    {
+    text = photonar6;
+    }
+    
+    if room = rm_level7
+    {
+    text = photonar7;
+    }
+    
+    if room = rm_level8
+    {
+    text = photonar8;
+    }
+    
+    if room = rm_level9
+    {
+    text = photonar9;
+    }
+    
+    if room = rm_level10
+    {
+    text = photonar10;
+    }
+    
 }
 
 

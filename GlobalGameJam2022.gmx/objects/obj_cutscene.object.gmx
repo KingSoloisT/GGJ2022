@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = 'Im a bad boy. and Im here to do bad!';
+            <string>scr_narrative();
+text = ' '
+
 </string>
           </argument>
         </arguments>
@@ -74,9 +76,66 @@
             <string>draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
-draw_text(400,420,text);
+draw_text(400,150,text);
 
-if alarm[0] &lt;=-1 {alarm[0] = 30*5};
+if alarm[0] &lt;=-1 {alarm[0] = 30*15};
+
+scr_narrative();
+
+if room = rm_story
+{
+text = narrative1;
+}
+
+if room = rm_story1
+{
+text = narrative2;
+}
+
+if room = rm_story2
+{
+text = narrative3;
+}
+
+if room = rm_story3
+{
+text = narrative4;
+}
+
+if room = rm_story4
+{
+text = narrative5;
+}
+
+if room = rm_story5
+{
+text = narrative6;
+}
+
+if room = rm_story6
+{
+text = narrative7;
+}
+
+if room = rm_story7
+{
+text = narrative8;
+}
+
+if room = rm_story8
+{
+text = narrative9;
+}
+
+if room = rm_story9
+{
+text = narrative10;
+}
+
+if room = rm_end
+{
+text = narrative11;
+}
 </string>
           </argument>
         </arguments>
