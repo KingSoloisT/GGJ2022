@@ -7,7 +7,7 @@
 narrative1 = 
 "I'd been chasing this lead for weeks, and feelin' real burned out. 
 Between late nights, constant city rain, and hassle from that dame... 
-All about her missing husband. Disappeared without a trace. 
+All about her missing husband. He disappeared without a trace. 
 Still, there's worse things than gettin' a fistful of cash 
 from a beautiful woman on a Friday night."
 
@@ -15,7 +15,7 @@ narrative2 =
 "I guess all the weirdos are out tonight. Some lowlife in a bad 
 coat trying to make things hard for me... 
 Too bad I''ve got as many leads as bullets for my revolver. 
-I guess he's lucky that I ain't."
+Looks like his luck has run in while mine as run out."
 
 narrative3 = 
 "The place was starting to give me the creeps. The closer I got 
@@ -30,12 +30,12 @@ back at the door. I don't care for surprises either, but it didn't
 look like was leaving the place without one..."
 
  narrative5 = 
-"When I thought about it, I didn't remember that woman even walking 
+"When I thought about it, I didn't remember that woman walking 
 into my office. What was her name? Where'd she come from? 
 And how did I wind up in this building?"
 
  narrative6 = 
-"I could tell the top floor wasn't much farther... I'd gone up six 
+"I could tell the top floor wasn't much further... I'd gone up six 
 floors and I only counted ten from the outside. I never like to be 
 sure of anything, but somebody had that light on up there, and 
 I was damn sure I'd find my guy."
@@ -65,8 +65,8 @@ but I knew without a shadow of doubt it was him."
  narrative11 =
 "There I was on the rooftop with a pocketful photos I couldn't explain. 
 But it didn't matter anymore, none of it mattered.
-I dropped the pictures off the side of the building and headed home. 
-I figure maybe I'm done chasing ghosts for a while..."
+I dropped the pictures off the side of the building. 
+I figure maybe I'm done chasing ghosts for a little while..."
 
 //PHOTO NARRATION------------------------------------------------------------------------------------------
 

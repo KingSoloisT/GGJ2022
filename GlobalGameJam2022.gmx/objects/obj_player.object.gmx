@@ -77,7 +77,15 @@ text = ' ';
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//movement 
+            <string>//pausemenu
+global.rm = room;
+
+if keyboard_check_pressed(vk_escape)
+{
+    room_goto(rm_pause)
+}
+
+//movement 
 
 if keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord('W')) 
 {

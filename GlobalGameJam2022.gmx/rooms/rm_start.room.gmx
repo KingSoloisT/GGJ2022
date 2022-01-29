@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(x,y,obj_startscreen);</code>
+  <code>instance_create(x,y,obj_startscreen);
+global.rm = false;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
