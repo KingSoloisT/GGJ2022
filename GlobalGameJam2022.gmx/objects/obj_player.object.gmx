@@ -148,11 +148,36 @@ if !text = ' '
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
+            <string>//draw_self();
 draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
 draw_text(400,420,text);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_triangle_colour(x-0,y-0,x+0,y+50, x+50, y+25, c_white, c_white, c_white, false);
+draw_triangle_colour(x+5,y+5,x+5,y+45, x+50, y+25, c_black, c_black, c_black, false);
+
 </string>
           </argument>
         </arguments>
