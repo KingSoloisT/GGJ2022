@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var xoffset = 15;
+            <string>depth = depth + 1;
+var xoffset = 15;
 var yoffset = 15;
 
 var xoffset2 = 17;
