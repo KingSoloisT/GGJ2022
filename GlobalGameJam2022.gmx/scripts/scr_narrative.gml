@@ -1,5 +1,5 @@
 //NARRATIVE - Beginning of level narration is defined in variables named ---- var narrative1 ---- etc.
-//            Photograph narration is defined in variabls ---- var photonar1 ---- etc.
+//Photograph narration is defined in variabls ---- var photonar1 ---- etc.
 
 
 //Level Narration
