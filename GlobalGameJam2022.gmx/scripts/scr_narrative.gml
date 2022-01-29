@@ -14,7 +14,7 @@ from a beautiful woman on a Friday night."
 narrative2 = 
 "I guess all the weirdos are out tonight. Some lowlife in a bad 
 coat trying to make things hard for me... 
-Too bad I''ve got as many leads as bullets for my revolver. 
+Too bad I've got as many leads as bullets for my revolver. 
 Looks like his luck has run in while mine as run out."
 
 narrative3 = 
@@ -108,5 +108,5 @@ The guy from the window maybe?"
 
  photonar10 =
 "Wait that's her! The woman from my office! 
-What happening here?"
+What's happening here?"
 

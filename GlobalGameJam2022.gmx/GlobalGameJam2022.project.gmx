@@ -18,18 +18,16 @@
       <sound>sound\snd_nar10</sound>
       <sound>sound\snd_nar11</sound>
     </sounds>
-    <sounds name="Photographs">
-      <sound>sound\snd_pic1</sound>
-      <sound>sound\snd_pic2</sound>
-      <sound>sound\snd_pic3</sound>
-      <sound>sound\snd_pic4</sound>
-      <sound>sound\snd_pic5</sound>
-      <sound>sound\snd_pic6</sound>
-      <sound>sound\snd_pic7</sound>
-      <sound>sound\snd_pic8</sound>
-      <sound>sound\snd_pic9</sound>
-      <sound>sound\snd_pic10</sound>
-    </sounds>
+    <sound>sound\snd_pic1</sound>
+    <sound>sound\snd_pic2</sound>
+    <sound>sound\snd_pic3</sound>
+    <sound>sound\snd_pic4</sound>
+    <sound>sound\snd_pic5</sound>
+    <sound>sound\snd_pic6</sound>
+    <sound>sound\snd_pic7</sound>
+    <sound>sound\snd_pic8</sound>
+    <sound>sound\snd_pic9</sound>
+    <sound>sound\snd_pic10</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_test_block</sprite>

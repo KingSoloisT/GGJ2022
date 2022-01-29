@@ -54,7 +54,7 @@ text = ' ';
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = ' ';
+            <string>//text = ' ';
 </string>
           </argument>
         </arguments>
@@ -108,7 +108,7 @@ if keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord('D'))
     if place_free(x+spdx,y) {x += spdx;}
 }
 
-x=clamp(x,0,room_width-sprite_width);
+x=clamp(x,50,room_width-sprite_width-50);
 y=clamp(y,150,room_height-sprite_height-50);
 
 //interactions
@@ -135,51 +135,62 @@ if place_meeting(x,y,obj_pickup)
     
     if room = rm_level1
     {
+    audio_play_sound(snd_pic1,0,false);
     text = photonar1;
     }
-    
+    }
+    /*
     if room = rm_level2
     {
+    audio_play_sound(snd_pic2,1,false);
     text = photonar2;
     }
     
     if room = rm_level3
     {
+    audio_play_sound(snd_pic3,1,false);
     text = photonar3;
     }
     
     if room = rm_level4
     {
+    audio_play_sound(snd_pic4,1,false);
     text = photonar4;
     }
     
     if room = rm_level5
     {
+    audio_play_sound(snd_pic5,1,false);
     text = photonar5;
     }
     
     if room = rm_level6
     {
+    audio_play_sound(snd_pic6,1,false);
     text = photonar6;
     }
     
     if room = rm_level7
     {
+    audio_play_sound(snd_pic7,1,false);
     text = photonar7;
     }
     
     if room = rm_level8
     {
+    audio_play_sound(snd_pic8,1,false);
     text = photonar8;
     }
     
     if room = rm_level9
     {
+    audio_play_sound(snd_pic9,1,false);
     text = photonar9;
     }
     
     if room = rm_level10
     {
+    audio_play_sound(snd_pic10,1,false);
     text = photonar10;
     }
     

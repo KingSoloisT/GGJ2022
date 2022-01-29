@@ -71,7 +71,7 @@ if keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord('A'))
     if place_free(x+spdx,y) {x += spdx;}
 }
 
-x=clamp(x,0,room_width-sprite_width);
+x=clamp(x,50,room_width-sprite_width-50);
 y=clamp(y,150,room_height-sprite_height-50);
 
 //interaction
