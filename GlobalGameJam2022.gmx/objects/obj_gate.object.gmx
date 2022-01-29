@@ -25,7 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_rectangle_colour(x,        y+15,   x+5,       y+50, c_white,c_white,c_white,c_white,false);
+            <string>
+draw_rectangle_colour(x+15,y + 12,x+38,y+50,c_white,c_white,c_white,c_white,true);
+draw_text_ext_transformed_colour(x + 40, y+32, "Exit", 1, 50, 1, 1, 270, c_white, c_white, c_white, c_white, 1);
+
+//FENCE CODE BELOW
+/*
+draw_rectangle_colour(x,        y+15,   x+5,       y+50, c_white,c_white,c_white,c_white,false);
 draw_rectangle_colour(x+11,     y+15,   x+16,      y+50, c_white,c_white,c_white,c_white,false);
 draw_rectangle_colour(x+22.5,   y+15,   x+27.5,    y+50, c_white,c_white,c_white,c_white,false);
 draw_rectangle_colour(x+34,     y+15,   x+39,      y+50, c_white,c_white,c_white,c_white,false);
@@ -39,7 +45,8 @@ draw_triangle_colour(x+11,     y+15,    x+16,      y+15,    x+13.5,         y, c
 draw_triangle_colour(x+22.5,   y+15,    x+27.5,    y+15,    x+25,           y, c_white,c_white,c_white,false);
 draw_triangle_colour(x+34,     y+15,    x+39,      y+15,    x+36.5,         y, c_white,c_white,c_white,false);
 draw_triangle_colour(x+45,     y+15,    x+50,      y+15,    x+47.5,         y, c_white,c_white,c_white,false);
-
+*/
+//FENCE CODE ABOVE
 
 </string>
           </argument>
