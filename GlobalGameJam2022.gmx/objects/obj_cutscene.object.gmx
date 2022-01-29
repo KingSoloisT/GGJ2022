@@ -136,6 +136,11 @@ if room = rm_end
 {
 text = narrative11;
 }
+
+if keyboard_check_pressed(vk_enter)
+{
+    room_goto_next();
+}
 </string>
           </argument>
         </arguments>

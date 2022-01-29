@@ -103,8 +103,49 @@ if place_meeting(x,y,obj_pickup)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_triangle_colour(x-0,y+25,x+50,y+50, x+50, y+0, c_white, c_white, c_white, false);
-draw_triangle_colour(x-0,y+25,x+45,y+45, x+45, y+5, c_black, c_black, c_black, false);
+            <string>//draw_triangle_colour(x-0,y+25,x+50,y+50, x+50, y+0, c_white, c_white, c_white, false);
+//draw_triangle_colour(x-0,y+25,x+45,y+45, x+45, y+5, c_black, c_black, c_black, false);
+
+var xoffset = x + 62;
+
+//background color white.
+//draw_rectangle_colour   (x+2,    y-3,   xoffset - 10,   y+52,                   c_white, c_white, c_white, c_white, false);
+draw_rectangle_colour   (xoffset-48,    y-3,   xoffset - 8,   y+54,                   c_white, c_white, c_white, c_white, false);
+
+//hat
+draw_line_width_colour  (xoffset -+27,      y+0,    xoffset -+38,   y+2,   1,               c_black, c_black);
+draw_line_width_colour  (xoffset -+31,      y-1,    xoffset -+35,   y+0,   5,               c_black, c_black);
+
+//head
+draw_circle_colour      (xoffset -+32,      y+3,    3,                              c_black, c_black, false);
+
+//upper body
+draw_line_width_colour  (xoffset -+32,      y+5,    xoffset -+20,   y+25,   10,             c_black, c_black);
+draw_rectangle_colour   (xoffset -+17.5,    y+20,   xoffset -+25,   y+35,                   c_black, c_black, c_black, c_black, false);
+
+//lower body
+draw_triangle_colour    (xoffset -+10,      y+40,   xoffset -+35,   y+40,   xoffset -+27,   y+25,   c_black, c_black, c_black, false);
+
+//left arm
+draw_line_width_colour  (xoffset -+27,      y+26,   xoffset -+13,   y+9, 4,                 c_black, c_black);
+draw_line_width_colour  (xoffset -+13,      y+9,    xoffset -+28,   y+5, 4,                 c_black, c_black);
+
+//right arm
+draw_line_width_colour  (xoffset -+30 - 5,      y+5,    xoffset -+35 ,   y+23, 4,                c_black, c_black);
+draw_line_width_colour  (xoffset -+34 ,      y+23,   xoffset -+43 ,   y+21, 4,                c_black, c_black);
+draw_circle_colour      (xoffset -+45 ,      y+20,                 2,                c_black, c_black, false);
+
+//left leg
+draw_line_width_colour  (xoffset -+20,      y+38,   xoffset -+12,   y+47, 5,                c_black, c_black);
+
+//right leg
+draw_line_width_colour  (xoffset -+26,      y+38,   xoffset -+27,   y+47, 5,                c_black, c_black);
+
+//right shoe
+draw_triangle_colour    (xoffset -+23,      y+44,   xoffset -+26,   y+50,   xoffset -+33,   y+50,     c_black, c_black, c_black, false);
+
+//left shoe
+draw_triangle_colour    (xoffset -+11,      y+47,   xoffset -+10,   y+50,   xoffset -+17,   y+51,     c_black, c_black, c_black, false);
 </string>
           </argument>
         </arguments>

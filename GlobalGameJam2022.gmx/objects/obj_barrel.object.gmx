@@ -25,7 +25,96 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_ellipse_colour(x, y, x+50, y+50, c_black, c_white, true);
+            <string>var cakethickness = 1;
+var xoffset = 10;
+var yoffset = 2;
+
+
+//wall
+
+var topleftx1 = x + 10
+var toplefty1 = y + 15 - 30
+//x 10
+//y 15
+
+//top right 1
+var toprightx1 = x + 30 + 5
+var toprighty1 = y + 5 - 15  - 30
+//x 30
+//y 5
+
+//bot left 1
+var botleftx1 = x + 10
+var botlefty1 = y + 45 
+//x 10
+//y 45
+
+//bot right 1
+var botrightx1 = x + 30 + 5
+var botrighty1 = y + 35    - 15
+//x 30
+//y 35
+
+
+
+//1
+//top left to top right
+draw_line_width_colour(topleftx1, toplefty1, toprightx1, toprighty1, cakethickness, c_white, c_white);
+
+//bot left to bot right
+draw_line_width_colour(botleftx1, botlefty1, botrightx1, botrighty1, cakethickness, c_white, c_white);
+
+//top left to bot left
+draw_line_width_colour(topleftx1, toplefty1, botleftx1, botlefty1, cakethickness, c_white, c_white);
+
+//top right to bot right
+draw_line_width_colour(toprightx1, toprighty1, botrightx1, botrighty1, cakethickness, c_white, c_white);
+
+
+
+//2
+//top left to top right
+draw_line_width_colour(topleftx1 + xoffset, toplefty1 + yoffset, toprightx1 + xoffset, toprighty1 + yoffset, cakethickness, c_white, c_white);
+
+//bot left to bot right
+draw_line_width_colour(botleftx1 + xoffset, botlefty1 + yoffset, botrightx1 + xoffset, botrighty1 + yoffset, cakethickness, c_white, c_white);
+
+//top left to bot left
+draw_line_width_colour(topleftx1 + xoffset, toplefty1 + yoffset, botleftx1 + xoffset, botlefty1 + yoffset, cakethickness, c_white, c_white);
+
+//top right to bot right
+draw_line_width_colour(toprightx1 + xoffset, toprighty1 + yoffset, botrightx1 + xoffset, botrighty1 + yoffset, cakethickness, c_white, c_white);
+
+
+
+/*
+//top left to top right
+draw_line_width_colour(x + 10 + xoffset, y + 15 + yoffset, x + 30 + xoffset, y + 5 + yoffset, cakethickness, c_white, c_white);
+
+//bot left to bot right
+draw_line_width_colour(x + 10 + xoffset, y + 45 + yoffset, x + 30 + xoffset, y + 35 + yoffset, cakethickness, c_white, c_white);
+
+//top left to bot left
+draw_line_width_colour(x + 10 + xoffset, y + 15 + yoffset, x + 10 + xoffset, y + 45 + yoffset, cakethickness, c_white, c_white);
+
+//top right to bot right
+draw_line_width_colour(x + 30 + xoffset, y + 5 + yoffset, x + 30 + xoffset, y + 35 + yoffset, cakethickness, c_white, c_white);
+*/
+
+
+
+
+
+//3
+//top left 1 &amp; 2 
+draw_line_width_colour(topleftx1, toplefty1, topleftx1 + xoffset, toplefty1 + yoffset, cakethickness, c_white, c_white);
+//top right 1 &amp; 2
+draw_line_width_colour(toprightx1, toprighty1, toprightx1 + xoffset, toprighty1 + yoffset, cakethickness, c_white, c_white);
+//bot left 1 &amp; 2
+draw_line_width_colour(botleftx1, botlefty1, botleftx1 + xoffset, botlefty1 + yoffset, cakethickness, c_white, c_white);
+//bot right 1 &amp; 2
+draw_line_width_colour(botrightx1, botrighty1, botrightx1 + xoffset, botrighty1 + yoffset, cakethickness, c_white, c_white);
+
 </string>
           </argument>
         </arguments>
