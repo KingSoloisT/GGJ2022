@@ -60,7 +60,7 @@ part_type_gravity(rain_particle, .8, 250);
 part_type_orientation(rain_particle,250,250,0,0,0);
 part_type_size(rain_particle,.2,.2,0,0);
 
-if instance_exists(obj_player)
+if instance_exists(obj_player) || room = rm_start
 {
     part_type_alpha1(rain_particle,0);
 }
