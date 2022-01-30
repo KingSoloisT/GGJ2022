@@ -15,7 +15,7 @@ narrative2 =
 "I guess all the weirdos are out tonight. Some lowlife in a bad 
 coat trying to make things hard for me... 
 Too bad I've got as many leads as bullets for my revolver. 
-Looks like his luck has run in while mine has run out."
+Looks like his luck's run in while mine's run out."
 
 narrative3 = 
 "The place was starting to give me the creeps. The closer I got 
@@ -30,7 +30,7 @@ back at the door. I don't care for surprises either, but it didn't
 look like was leaving the place without one..."
 
  narrative5 = 
-"When I thought about it, I didn't remember that woman walking 
+"When I thought about it, I don't even remember that woman walking 
 into my office. What was her name? Where'd she come from? 
 And how did I wind up in this building?"
 
@@ -66,28 +66,28 @@ but I knew without a shadow of doubt it was him."
 "There I was on the rooftop with a pocketful photos I couldn't explain. 
 But it didn't matter anymore, none of it mattered.
 I dropped the pictures off the side of the building. 
-I figure maybe I'm done chasing ghosts for a little while..."
+I figure maybe I'm done chasing ghosts. At least for a little while..."
 
 //PHOTO NARRATION------------------------------------------------------------------------------------------
 
  photonar1 =
-"Hmm? A photo. Looks like a guy in a suit with a dame."
+"Hmm? A photo. Looks like that woman with some guy."
 
  photonar2 =
-"Another photo. Same people from the last picture, in 
+"Another photo. Same people from the last picture, but in 
 front of a house this time... wait a minute, is that 
 someone in the window?"
 
  photonar3 =
-"Same happy couple, something's off though... yeah... 
+"Same happy couple, something's off though... 
 they don't know their picture is being taken...."
 
  photonar4 =
-"Hey where'd the dame go? That's a shame. Just this 
-schmuck in his backyard."
+"Hey where'd the woman go? That's a shame. Just the
+guy in his backyard."
 
  photonar5 =
-"Backyard, but no guy or gal this time. Hold on... 
+"Backyard again, but no guy or gal this time. Hold on... 
 is that blood?"
 
  photonar6 =
@@ -96,15 +96,15 @@ was disturbed right there..."
 
  photonar7 =
 "There's the guy again, out cutting his grass. He 
-looks different somehow, something about his eyes..."
+looks different... something off about his eyes..."
 
  photonar8 =
-"Can't make out the picture, it's covered in dried 
+"Can't make out the picture this time, it's covered in dried 
 blood or something..."
 
  photonar9 =
 "Is that a body? And who's that in the background? 
-The guy from the window maybe?"
+The guy from the window? Who took this?"
 
  photonar10 =
 "Wait that's her! The woman from my office! 

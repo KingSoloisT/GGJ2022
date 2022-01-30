@@ -58,7 +58,7 @@
     <instance objName="obj_barrel" x="150" y="250" name="inst_FF470B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel" x="550" y="200" name="inst_61825970" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel" x="450" y="200" name="inst_565B54E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gate" x="650" y="250" name="inst_EC413276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gate" x="700" y="250" name="inst_EC413276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel" x="350" y="300" name="inst_7CE2087C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel" x="200" y="350" name="inst_84728482" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
