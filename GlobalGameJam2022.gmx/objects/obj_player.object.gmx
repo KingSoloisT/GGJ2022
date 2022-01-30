@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>scr_narrative();
-
 spdx = 50;
 spdy= 50;
 escape = false;
@@ -117,22 +116,26 @@ if keyboard_check_pressed(vk_escape)
 
 if keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord('W')) 
 {
+   audio_play_sound(snd_step,1,false);
    if place_free(x,y-spdy) {y -= spdy;}
 }
 
 if keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord('S'))
 {
+    audio_play_sound(snd_step,1,false);
    if place_free(x,y+spdy) {y += spdy;}
 }
 
 
 if keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord('A'))
 {
+    audio_play_sound(snd_step,1,false);
     if place_free(x-spdx,y) {x -= spdx;}
 }
 
 if keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord('D'))
 {
+    audio_play_sound(snd_step,1,false);    
     if place_free(x+spdx,y) {x += spdx;}
 }
 
@@ -143,11 +146,13 @@ y=clamp(y,150,room_height-sprite_height-50);
 
 if place_meeting(x,y,obj_enemy)
 {
+    audio_play_sound(snd_crash0,1,false); 
     room_restart();
 }
 
 if place_meeting(x,y,obj_gate) &amp;&amp; escape = true
 {
+    audio_play_sound(snd_end,1,false); 
     room_goto_next();
 }
 
@@ -158,6 +163,7 @@ if !text = ' '
 
 if place_meeting(x,y,obj_pickup)
 {
+    audio_play_sound(snd_item,1,false); 
     escape = true;
     instance_destroy(obj_pickup);
     

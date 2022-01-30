@@ -71,7 +71,8 @@ I figure maybe I'm done chasing ghosts. At least for a little while..."
 //PHOTO NARRATION------------------------------------------------------------------------------------------
 
  photonar1 =
-"Hmm? A photo. Looks like that woman with some guy."
+"Hmm? A photo. Looks like that woman with some guy.
+Must be her husband."
 
  photonar2 =
 "Another photo. Same people from the last picture, but in 
