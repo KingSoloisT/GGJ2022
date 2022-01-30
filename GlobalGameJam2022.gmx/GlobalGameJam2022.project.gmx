@@ -34,6 +34,7 @@
       <sound>sound\snd_end</sound>
       <sound>sound\snd_hornsong</sound>
       <sound>sound\snd_basswalk</sound>
+      <sound>sound\sng_door1</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
