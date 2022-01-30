@@ -32,6 +32,8 @@
       <sound>sound\snd_crash0</sound>
       <sound>sound\snd_step</sound>
       <sound>sound\snd_end</sound>
+      <sound>sound\snd_hornsong</sound>
+      <sound>sound\snd_basswalk</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -66,6 +68,7 @@
     <object>objects\obj_backgroundgrid</object>
     <object>objects\obj_lighting</object>
     <object>objects\obj_glowing</object>
+    <object>objects\obj_rain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
