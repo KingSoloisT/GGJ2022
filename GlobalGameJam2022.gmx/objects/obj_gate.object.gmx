@@ -54,7 +54,7 @@ draw_set_blend_mode(bm_normal);
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt_exit);
-depth = depth + 1;
+//depth = depth + 1;
 draw_rectangle_colour(x+15,y + 12,x+38,y+50,c_white,c_white,c_white,c_white,true);
 draw_text_ext_transformed_colour(x + 37, y+31, "Exit", 1, 50, 1, 1, 270, c_white, c_white, c_white, c_white, 1);
 draw_set_font(fnt_test);
