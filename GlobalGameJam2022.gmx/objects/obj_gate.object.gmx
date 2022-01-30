@@ -53,10 +53,11 @@ draw_set_blend_mode(bm_normal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = depth + 1;
+            <string>draw_set_font(fnt_exit);
+depth = depth + 1;
 draw_rectangle_colour(x+15,y + 12,x+38,y+50,c_white,c_white,c_white,c_white,true);
-draw_text_ext_transformed_colour(x + 40, y+32, "Exit", 1, 50, 1, 1, 270, c_white, c_white, c_white, c_white, 1);
-
+draw_text_ext_transformed_colour(x + 37, y+31, "Exit", 1, 50, 1, 1, 270, c_white, c_white, c_white, c_white, 1);
+draw_set_font(fnt_test);
 //FENCE CODE BELOW
 /*
 draw_rectangle_colour(x,        y+15,   x+5,       y+50, c_white,c_white,c_white,c_white,false);

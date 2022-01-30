@@ -78,73 +78,106 @@ draw_set_halign(fa_center);
 //test text
 draw_text(400,150,text);
 
-if alarm[0] &lt;=-1 {alarm[0] = 30*14};
 
 scr_narrative();
 
 if room = rm_story
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*14};
-text = narrative1;
+    //if alarm[0] &lt;=-1 {alarm[0] = 30*14};
+    text = narrative1;
+    if !audio_is_playing(snd_nar1)
+    {
+    room_goto_next();
+    }
 }
 
 if room = rm_story1
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*12};
+    if !audio_is_playing(snd_nar2)
+    {
+    room_goto_next();
+    }
 text = narrative2;
 }
 
 if room = rm_story2
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*10};
+    if !audio_is_playing(snd_nar3)
+    {
+    room_goto_next();
+    }
 text = narrative3;
 }
 
 if room = rm_story3
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*14};
+    if !audio_is_playing(snd_nar4)
+    {
+    room_goto_next();
+    }
 text = narrative4;
 }
 
 if room = rm_story4
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*10};
+    if !audio_is_playing(snd_nar5)
+    {
+    room_goto_next();
+    }
 text = narrative5;
 }
 
 if room = rm_story5
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*11};
+    if !audio_is_playing(snd_nar6)
+    {
+    room_goto_next();
+    }
 text = narrative6;
 }
 
 if room = rm_story6
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*11};
+    if !audio_is_playing(snd_nar7)
+    {
+    room_goto_next();
+    }
 text = narrative7;
 }
 
 if room = rm_story7
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*11};
+    if !audio_is_playing(snd_nar8)
+    {
+    room_goto_next();
+    }
 text = narrative8;
 }
 
 if room = rm_story8
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*11};
+    if !audio_is_playing(snd_nar9)
+    {
+    room_goto_next();
+    }
 text = narrative9;
 }
 
 if room = rm_story9
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*11};
+    if !audio_is_playing(snd_nar10)
+    {
+    room_goto_next();
+    }
 text = narrative10;
 }
 
 if room = rm_end
 {
-if alarm[0] &lt;=-1 {alarm[0] = 30*14};
+    if !audio_is_playing(snd_nar11)
+    {
+    room_goto_next();
+    }
 text = narrative11;
 }
 
