@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(x,y,obj_credits);</code>
+  <code>instance_create(x,y,obj_credits);
+audio_sound_gain(snd_hornsong,0.2,0.1000);
+audio_sound_gain(snd_basswalk,0,0.1000);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -25,13 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = 'Narrative Designer/ Voice Actor: Jarret Barton
+            <string>text = 'Introducing Jarret Barton as Logan Locke
+
+-------------------------------------------------
+
+Narrative and Level Designer: Jarret Barton
 
 Game Designer/ Composer: Gregory Blomquist
 
 Programmer/ Voice Over Producer: Cory Rupert
 
-Art Direction/ Programmer: Richard Semenuik';
+Art Direction/ Programmer: Richard Semenuik'
+;
 </string>
           </argument>
         </arguments>

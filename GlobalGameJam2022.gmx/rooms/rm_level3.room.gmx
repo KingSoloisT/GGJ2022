@@ -11,7 +11,9 @@
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code>instance_create(0,0,obj_backgroundgrid);
-instance_create(0,0,obj_glowing);</code>
+instance_create(0,0,obj_glowing);
+audio_sound_gain(snd_hornsong,0.2,0.1000);
+audio_sound_gain(snd_basswalk,0,0.1000);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

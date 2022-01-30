@@ -64,8 +64,8 @@ draw_text(400,420,text);
 
 if keyboard_check_pressed(vk_enter)
 {
-    audio_play_sound(snd_start,1,false); 
-    room_goto_next();
+    audio_play_sound(sng_door1,1,false); 
+        room_goto_next();
 }
 
 </string>

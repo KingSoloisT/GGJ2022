@@ -106,6 +106,7 @@ y=clamp(y,150,room_height-sprite_height-50);
 
 if place_meeting(x,y,obj_pickup)
 {
+    audio_play_sound(snd_crash0,1,false);
     room_restart();
 }
 

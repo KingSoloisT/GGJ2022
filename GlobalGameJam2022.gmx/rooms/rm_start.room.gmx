@@ -12,7 +12,9 @@
   <showcolour>-1</showcolour>
   <code>instance_create(x,y,obj_startscreen);
 global.rm = false;
-audio_play_sound(snd_hornsong,1,true);</code>
+audio_play_sound(snd_hornsong,1,true);
+audio_play_sound(snd_basswalk,1,true);
+audio_sound_gain(snd_basswalk,0,0.5);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
