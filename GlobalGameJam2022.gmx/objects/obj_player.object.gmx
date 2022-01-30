@@ -279,7 +279,7 @@ draw_text(400,25,text);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = 1;
+            <string>depth = 0;
 
 //background color white.
 draw_rectangle_colour   (x+8,    y-3,   x +50,   y+52,                   c_black, c_black, c_black, c_black, false);
