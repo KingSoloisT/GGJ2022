@@ -138,8 +138,6 @@ if place_meeting(x,y,obj_pickup)
     audio_play_sound(snd_pic1,0,false);
     text = photonar1;
     }
-    }
-    /*
     if room = rm_level2
     {
     audio_play_sound(snd_pic2,1,false);
@@ -224,7 +222,7 @@ if place_meeting(x,y,obj_pickup)
 draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
-draw_text(400,420,text);
+draw_text(400,25,text);
 </string>
           </argument>
         </arguments>

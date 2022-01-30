@@ -45,16 +45,17 @@
     <font>fonts\fnt_test</font>
     <font>fonts\fnt_title</font>
     <font>fonts\fnt_context</font>
+    <font>fonts\fnt_exit</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_barrel</object>
-    <object>objects\obj_gate</object>
     <object>objects\obj_pickup</object>
     <object>objects\obj_cutscene</object>
     <object>objects\obj_credits</object>
     <object>objects\obj_startscreen</object>
+    <object>objects\obj_gate</object>
     <object>objects\obj_pausemenu</object>
     <object>objects\obj_backgroundgrid</object>
   </objects>

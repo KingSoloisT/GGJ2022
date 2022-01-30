@@ -15,7 +15,7 @@ narrative2 =
 "I guess all the weirdos are out tonight. Some lowlife in a bad 
 coat trying to make things hard for me... 
 Too bad I've got as many leads as bullets for my revolver. 
-Looks like his luck has run in while mine as run out."
+Looks like his luck has run in while mine has run out."
 
 narrative3 = 
 "The place was starting to give me the creeps. The closer I got 
