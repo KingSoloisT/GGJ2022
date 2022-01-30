@@ -71,6 +71,7 @@
     <object>objects\obj_lighting</object>
     <object>objects\obj_glowing</object>
     <object>objects\obj_rain</object>
+    <object>objects\obj_titlegraphic</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
