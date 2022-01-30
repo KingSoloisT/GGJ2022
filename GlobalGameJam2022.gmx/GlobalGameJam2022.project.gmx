@@ -58,11 +58,12 @@
     <object>objects\obj_gate</object>
     <object>objects\obj_pausemenu</object>
     <object>objects\obj_backgroundgrid</object>
+    <object>objects\obj_lighting</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level1</room>
     <room>rooms\rm_start</room>
     <room>rooms\rm_story</room>
-    <room>rooms\rm_level1</room>
     <room>rooms\rm_1b</room>
     <room>rooms\rm_story1</room>
     <room>rooms\rm_level2</room>
