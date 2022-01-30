@@ -256,11 +256,13 @@ if place_meeting(x,y,obj_pickup)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//draw_self();
+            <string>
+/* @HTML TEST
 draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
 draw_text(400,25,text);
+*/
 </string>
           </argument>
         </arguments>
@@ -283,7 +285,17 @@ draw_text(400,25,text);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = 0;
+            <string>
+//@HTML TEST
+depth = -1000;
+draw_set_font(fnt_test);
+draw_set_halign(fa_center);
+//test text
+draw_text(400,25,text);
+//@HTML TEST
+
+
+//depth = 0;
 
 //background color white.
 draw_rectangle_colour   (x+8,    y-3,   x +50,   y+52,                   c_black, c_black, c_black, c_black, false);

@@ -53,7 +53,7 @@ draw_set_blend_mode(bm_normal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -3;
+            <string>depth = -1001;
 
 var cakethickness = 1;
 var xoffset = 10;

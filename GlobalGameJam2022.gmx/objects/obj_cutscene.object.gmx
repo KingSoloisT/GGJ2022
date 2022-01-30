@@ -73,7 +73,9 @@ text = ' '
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt_test);
+            <string>
+/* @HTML TEST
+draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
 draw_text(400,150,text);
@@ -160,6 +162,8 @@ if room = rm_story8
     {
     room_goto_next();
     }
+
+
 text = narrative9;
 }
 
@@ -180,6 +184,142 @@ if room = rm_end
     }
 text = narrative11;
 }
+*/
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+// @HTML TEST
+draw_set_font(fnt_test);
+draw_set_halign(fa_center);
+//test text
+draw_text(400,150,text);
+
+
+scr_narrative();
+
+if room = rm_story
+{
+    //if alarm[0] &lt;=-1 {alarm[0] = 30*14};
+    text = narrative1;
+    if !audio_is_playing(snd_nar1)
+    {
+    room_goto_next();
+    }
+}
+
+if room = rm_story1
+{
+    if !audio_is_playing(snd_nar2)
+    {
+    room_goto_next();
+    }
+text = narrative2;
+}
+
+if room = rm_story2
+{
+    if !audio_is_playing(snd_nar3)
+    {
+    room_goto_next();
+    }
+text = narrative3;
+}
+
+if room = rm_story3
+{
+    if !audio_is_playing(snd_nar4)
+    {
+    room_goto_next();
+    }
+text = narrative4;
+}
+
+if room = rm_story4
+{
+    if !audio_is_playing(snd_nar5)
+    {
+    room_goto_next();
+    }
+text = narrative5;
+}
+
+if room = rm_story5
+{
+    if !audio_is_playing(snd_nar6)
+    {
+    room_goto_next();
+    }
+text = narrative6;
+}
+
+if room = rm_story6
+{
+    if !audio_is_playing(snd_nar7)
+    {
+    room_goto_next();
+    }
+text = narrative7;
+}
+
+if room = rm_story7
+{
+    if !audio_is_playing(snd_nar8)
+    {
+    room_goto_next();
+    }
+text = narrative8;
+}
+
+if room = rm_story8
+{
+    if !audio_is_playing(snd_nar9)
+    {
+    room_goto_next();
+    }
+
+
+text = narrative9;
+}
+
+if room = rm_story9
+{
+    if !audio_is_playing(snd_nar10)
+    {
+    room_goto_next();
+    }
+text = narrative10;
+}
+
+if room = rm_end
+{
+    if !audio_is_playing(snd_nar11)
+    {
+    room_goto_next();
+    }
+text = narrative11;
+}
+// @HTML TEST
 
 </string>
           </argument>
