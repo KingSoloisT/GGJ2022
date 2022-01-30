@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>depth = 0;
 
-draw_triangle_colour(663,60,664,14,683,69,c_white,c_white,c_white,false);
+draw_triangle_colour(663,60,665,14,684,69,c_white,c_white,c_white,false);
 draw_triangle_colour(685,25,684,69,665,15,c_white,c_white,c_white,false);
 
 draw_triangle_colour(703,78,702,33,723,87,c_white,c_white,c_white,false);
