@@ -13,7 +13,8 @@
   <code>instance_create(x,y,obj_cutscene);
 audio_play_sound(snd_nar1,0,false);
 audio_sound_gain(snd_hornsong,0,1000);
-audio_sound_gain(snd_basswalk,0.3,1000);</code>
+audio_sound_gain(snd_basswalk,0.3,1000);
+audio_play_sound(snd_thunderstorm,0,false);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
