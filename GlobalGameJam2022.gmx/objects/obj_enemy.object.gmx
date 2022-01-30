@@ -134,6 +134,8 @@ if place_meeting(x,y,obj_pickup)
             <string>//draw_triangle_colour(x-0,y+25,x+50,y+50, x+50, y+0, c_white, c_white, c_white, false);
 //draw_triangle_colour(x-0,y+25,x+45,y+45, x+45, y+5, c_black, c_black, c_black, false);
 
+depth = depth + 1;
+
 var xoffset = x + 62;
 
 //background color white.

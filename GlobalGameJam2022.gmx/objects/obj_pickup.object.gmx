@@ -53,7 +53,8 @@ draw_set_blend_mode(bm_normal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = depth + 1;
+            <string>//depth = depth + 1;
+
 var xoffset = 15;
 var yoffset = 15;
 

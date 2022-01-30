@@ -40,6 +40,7 @@
     <sprite>sprites\spr_barrel</sprite>
     <sprite>sprites\spr_gate</sprite>
     <sprite>sprites\spr_pickup</sprite>
+    <sprite>sprites\spr_glowing</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -64,6 +65,7 @@
     <object>objects\obj_pausemenu</object>
     <object>objects\obj_backgroundgrid</object>
     <object>objects\obj_lighting</object>
+    <object>objects\obj_glowing</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
