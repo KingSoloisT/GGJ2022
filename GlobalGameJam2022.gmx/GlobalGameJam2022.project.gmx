@@ -35,6 +35,7 @@
       <sound>sound\snd_hornsong</sound>
       <sound>sound\snd_basswalk</sound>
       <sound>sound\sng_door1</sound>
+      <sound>sound\snd_thunderstorm</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
