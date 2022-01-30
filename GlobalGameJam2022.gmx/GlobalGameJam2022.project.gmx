@@ -27,6 +27,11 @@
       <sound>sound\snd_pic8</sound>
       <sound>sound\snd_pic9</sound>
       <sound>sound\snd_pic10</sound>
+      <sound>sound\snd_item</sound>
+      <sound>sound\snd_start</sound>
+      <sound>sound\snd_crash0</sound>
+      <sound>sound\snd_step</sound>
+      <sound>sound\snd_end</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
