@@ -12,6 +12,7 @@
   <showcolour>-1</showcolour>
   <code>instance_create(x,y,obj_startscreen);
 global.rm = false;
+global.steps = 0;
 audio_play_sound(snd_hornsong,1,true);
 audio_play_sound(snd_basswalk,1,true);
 audio_sound_gain(snd_basswalk,0,0.5);</code>

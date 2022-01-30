@@ -86,6 +86,8 @@ room_goto(rm_start);
             <string>draw_set_font(fnt_test);
 draw_set_halign(fa_center);
 //test text
+draw_text(400,50,'STEPS TAKEN:')
+draw_text(550,50,global.steps)
 draw_text(400,100,text);
 
 if alarm[0] &lt;=-1 {alarm[0] = 30*15};
