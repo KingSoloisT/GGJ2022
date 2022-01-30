@@ -63,7 +63,7 @@ audio_sound_gain(snd_basswalk,0,0.1000);</code>
     <instance objName="obj_gate" x="700" y="250" name="inst_37B22FAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lighting" x="0" y="0" name="inst_82B35CC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_glowing" x="0" y="0" name="inst_AC46ED02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="Label6" locked="-1" code="Depth:" scaleX="0" scaleY="0" colour="121882308" rotation="0"/>
+    <instance objName="obj_pickup" x="350" y="200" name="inst_45C44A65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
