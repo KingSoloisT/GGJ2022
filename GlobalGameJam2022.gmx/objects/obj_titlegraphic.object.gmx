@@ -4,10 +4,37 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>smoke_particle_system = part_system_create();
+smoke_particle_emitter = part_emitter_create(smoke_particle_system);
+smoke_particle = part_type_create();
+
+part_emitter_stream(smoke_particle_system,smoke_particle_emitter,smoke_particle,1)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -56,6 +83,7 @@ draw_line_colour(624,230,627,240,c_white,c_white);
 draw_triangle_colour(650,180,650,200,640,200,c_white,c_white,c_white,false);
 //cig
 draw_rectangle_colour(640,215,600,210,c_white,c_white,c_white,c_white,false);
+draw_line_colour(602,215,602,210,c_black,c_black);
 
 //jacket
 draw_line_colour(610,230,530,250,c_white,c_white);
@@ -77,6 +105,33 @@ draw_triangle_colour(680,250,700,290,678,310,c_white,c_white,c_white,true);
 draw_triangle_colour(677,310,700,340,675,370,c_white,c_white,c_white,true);
 
 
+//Cig Smoke
+part_emitter_region(smoke_particle_system,smoke_particle_emitter,598,602,207,211,ps_shape_rectangle,ps_distr_linear);
+part_type_shape(smoke_particle,pt_shape_smoke);
+part_type_colour1(smoke_particle,c_white);
+part_type_direction(smoke_particle,1,1,0,0)
+part_type_gravity(smoke_particle, .1, 100);
+part_type_size(smoke_particle,.1,.2,0,0);
+part_type_speed(smoke_particle,.1,.2,0,0);
+part_type_life(smoke_particle,30,50);
+
+if room = rm_start
+{
+    part_type_alpha1(smoke_particle,.3);
+}
+else if room != rm_start
+{
+    part_type_alpha1(smoke_particle,0);
+}
+
+if room = rm_start
+{
+    visible = true;
+}
+else if room != rm_start
+{
+    visible = false;
+}
 
 
 
