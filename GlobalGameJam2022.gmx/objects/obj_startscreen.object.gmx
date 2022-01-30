@@ -26,10 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>title = 'Noir se Trouve';
-context= 'P.I. Logan Locke has been hired to find a missing person. 
-His leads have converged onto a condemned apartment building.
-Nothing seems out of the ordinary, except for a bloodstain on the steps 
-and flickering light dancing through one of the broken top floor windows...'
+context= 'P.I. Logan Locke has been hired
+to find a missing person. 
+His leads have converged onto 
+a condemned apartment building.
+Nothing seems out of the ordinary, 
+except for a bloodstain on the steps 
+and flickering light dancing through 
+one of the broken top floor windows...'
 text = 'Press ENTER to Start';
 </string>
           </argument>
@@ -55,9 +59,11 @@ text = 'Press ENTER to Start';
             <kind>1</kind>
             <string>draw_set_halign(fa_center);
 draw_set_font(fnt_title);
-draw_text(400,50,title);
+draw_text(400,25,title);
+draw_set_halign(fa_left);
 draw_set_font(fnt_context);
-draw_text(400,200,context);
+draw_text(25,150,context);
+draw_set_halign(fa_center);
 draw_set_font(fnt_test);
 //test text
 draw_text(400,420,text);
